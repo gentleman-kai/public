@@ -5403,7 +5403,7 @@ function pano2vrSkin(player,base) {
 			me._popup_video_file__vid.appendChild(me._popup_video_file__source);
 			me._popup_video_file.appendChild(me._popup_video_file__vid);
 			var videoEl = player.registerVideoElement('popup_video_file', me._popup_video_file__vid);
-			videoEl.autoplay = false;
+			videoEl.autoplay = true;
 			notifySeekbars();
 			me._popup_video_file.ggVideoSource = media;
 		}
